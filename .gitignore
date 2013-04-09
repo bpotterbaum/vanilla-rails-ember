@@ -7,9 +7,38 @@
 # Ignore bundler config
 /.bundle
 
+# Ignore generated model documents
+/erd.pdf
+
+# Ignore coverage reports
+coverage
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
+
+# Ignore RubyMine project files
+.idea
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/public/uploads
+/db/schema.rb
+
+# Ignore eclipse files
+/.project
+
+# Ignore mac dir files
+.DS_Store
+*/.DS_Store
+
+# Ignore the special debugger initalizer for the pow server
+/config/initializers/pow_ruby_debug.rb
+
+# Ignore rvm and pow files
+.rvmrc
+.powrc
+
+/public/assets
+
+/config/database.yml
